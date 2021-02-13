@@ -1,5 +1,5 @@
 //Declaracion funciones main 
-#include<funciones.cpp>
+#include"funciones.cpp"
 
 int menu();
 void jugar();

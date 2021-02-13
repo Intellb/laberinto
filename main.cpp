@@ -2,10 +2,9 @@
 #include<iostream>
 #include<vector>
 #include"header.hpp"
-#include"objetos.hpp"
-
+#include"headerobjetos.hpp"
 using namespace std;
-int main{
+int main(){
     bool go=true;
     int opcion;
     while(go){
@@ -25,10 +24,7 @@ int main{
                 cout<<"Gracias por jugar";
                 break;
             default:
-                do{
-                    cout<<"Ingresar una opcion valida por favor";
-                    cin>>opcion;
-                }while(opcion=1 or opcion=2 or opcion=3)''
+                cout<<"Error fatal en funcion menu";
         }
     }
 
