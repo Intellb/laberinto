@@ -1,2 +1,2 @@
 //Declaracion metodos objeto laberinto 
-#include "laberinto.hpp"
+#include "objetos.hpp"

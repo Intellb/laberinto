@@ -6,3 +6,7 @@ class laberinto(){
         
     }
 }
+
+
+
+//Objeto jugador

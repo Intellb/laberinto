@@ -2,7 +2,8 @@
 #include<iostream>
 #include<vector>
 #include"header.hpp"
-#include"laberinto.hpp"
+#include"objetos.hpp"
+
 using namespace std;
 int main{
     bool go=true;

@@ -14,11 +14,11 @@ int menu(){
 }
 
 void jugar(){
-//muestra todos los jugadores y puntajes
+//Juego usa clases laberinto y jugador
 }
 
 void max_puntajes(){
-
+// Top 3 puntajes de maxpuntajes.txt
 }
 
 void creditos(){
