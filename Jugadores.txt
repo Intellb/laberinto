@@ -1,1 +1,4 @@
-Nombre  Puntaje
+Nombre          Puntaje
+Alejandra       213131
+Nicolas         33122
+Carlos          1000
