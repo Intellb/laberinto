@@ -9,18 +9,15 @@ Tiempo que queda
 posicion del jugador 
 subir nivel 
 */
-// top left bot rigt
-    int paredes[4]={0,0,0,0};
+// top left bot r
+    struct celdas{
+        bool pared[4]={true,true,true,true};
+        //int posicion[2]={0,0};
+        bool visitada=false;
+    };
+    private:
+
 
     public:
-        void dibujar(int n){
-            for(int i=0;i<n;i++){
-                for(int j=0;j<n;j++){
-                    cout<<"xd ";
-                }
-                cout<<endl;
-            }
-        }
+
 };
-
-

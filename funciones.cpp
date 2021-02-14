@@ -1,6 +1,7 @@
 #include<fstream>
 #include<iostream>
 #include<string>
+#include<vector>
 using namespace std;
 #include"objetos.hpp"
 // Funciones del main 
@@ -21,7 +22,8 @@ int menu(){
     return opcion;
 }
 
-void jugar(){
+
+void instrucciones(){
     system ("CLS");
     cout<<"Instrucciones para jugar"<<endl;
     cout<<"Cruza el laberinto antes de que se acabe el tiempo"<<endl;
@@ -32,9 +34,12 @@ void jugar(){
     cout<<"D: moverse para derecha"<<endl;
     cout<<"A: moverse para izquierda"<<endl;
     system("PAUSE");
+}
+
+void jugar(){
+    instrucciones();
     system ("CLS");
-    laberinto nivelactivo;
-    nivelactivo.dibujar(8);
+    cout<<"Juego ejecutandose";
     system("PAUSE");
     
     //Juego usa clases laberinto y jugador
