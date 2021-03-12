@@ -1,4 +1,3 @@
-Nombre          Puntaje
-Alejandra       213131
-Nicolas         33122
-Carlos          1000
+600,Elpepe
+400,Alejandra
+300,Elpepe
